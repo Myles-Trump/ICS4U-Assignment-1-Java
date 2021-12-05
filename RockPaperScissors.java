@@ -61,8 +61,9 @@ final class RockPaperScissors {
                 int min = ONE;
 
                 // generate random value from 1-3
+                max = min + 1;
                 int randNum
-                    = (int) Math.floor(Math.random() * (max = min + 1) + min);
+                    = (int) Math.floor(Math.random() * (max) + min);
 
                 // ask the user to input Rock, Paper or Scissors
                 System.out.print("Enter Rock, Paper or Scissors: ");
