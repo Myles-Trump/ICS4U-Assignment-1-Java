@@ -96,7 +96,7 @@ final class RockPaperScissors {
                     if (userChoice == 1 && randNum == THREE) {
                         System.out.print("\nPlayer wins! Program picked "
                             + programChoice);
-                    } else if (userChoice == THREE && randNum == 1){
+                    } else if (userChoice == THREE && randNum == 1) {
                         System.out.print("\nProgram wins! Program picked "
                             + programChoice);
                     } else if (userChoice > randNum) {
